@@ -1,4 +1,4 @@
-var data = {
+var result = {
     "2": [
       {
         "id": "2.1",

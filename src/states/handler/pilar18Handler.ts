@@ -13,11 +13,15 @@ export function pilar18Handler(pilar18: PilarAverage[], pilarArray: Pilar[]) {
   // berfirasat & cerdik
   pilar18[4 - 1].average =
     (pilarArray[8 - 1].skor + pilarArray[26 - 1].skor) / 2;
+
+  // INI
   // berprasangka baik & cerdas
   pilar18[5 - 1].average =
     (pilarArray[14 - 1].skor + pilarArray[6 - 1].skor) / 2;
   // ahli hikmah
   pilar18[6 - 1].average = pilarArray[11 - 1].skor;
+
+  // INI
   // jujur & menjaga diri
   pilar18[7 - 1].average =
     (pilarArray[34 - 1].skor + pilarArray[15 - 1].skor) / 2;
@@ -27,6 +31,9 @@ export function pilar18Handler(pilar18: PilarAverage[], pilarArray: Pilar[]) {
   // sederhana & rendah hati
   pilar18[9 - 1].average =
     (pilarArray[28 - 1].skor + pilarArray[37 - 1].skor) / 2;
+
+
+    
   // pemberani, pencemburu & kompetitif
   pilar18[10 - 1].average =
     (pilarArray[35 - 1].skor +
