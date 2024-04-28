@@ -28,7 +28,7 @@ export default function ResultPage() {
   return (
     <div className="flex justify-center m-2">
       {/* tengah halaman */}
-      <div className="w-[19cm]">
+      <div className="w-[22cm]">
         <ResultAction />
         <div className="print:h-[27.5cm]">
           <Identity />
