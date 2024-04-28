@@ -26,7 +26,7 @@ var calcBakat18 = calcBakat40.map((bakat) =>
   bakat.id.includes("18.")
     ? {
         ...bakat,
-        score: calcAvgChildren(bakat.data.DirectChild, prevCalc),
+        score: calcAvgChildren(bakat.data.DirectChild, calcBakat18),
       }
     : bakat
 );
@@ -37,7 +37,7 @@ var calcBakat6 = calcBakat18.map((bakat) =>
   bakat.id.includes("6.")
     ? {
         ...bakat,
-        score: calcAvgChildren(bakat.data.DirectChild, prevCalc),
+        score: calcAvgChildren(bakat.data.DirectChild, calcBakat6),
       }
     : bakat
 );
@@ -48,7 +48,7 @@ var calcBakat3And2 = calcBakat6.map((bakat) =>
   bakat.id.includes("3.") || bakat.id.includes("2.")
     ? {
         ...bakat,
-        score: calcAvgChildren(bakat.data.DirectChild, prevCalc),
+        score: calcAvgChildren(bakat.data.DirectChild, calcBakat3And2),
       }
     : bakat
 );
