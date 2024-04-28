@@ -78,8 +78,8 @@ export default function Result40() {
             <rect id="6.2" x="840.44" y="1273.6" width="189.73" height="78.416" ry="30" fill={'#'+warna6hex(ranks6[1])} />
             <rect id="6.6" x="1450.2" y="2054.7" width="189.73" height="78.416" ry="30" fill={'#'+warna6hex(ranks6[5])} />
             <rect id="6.3" x="840.44" y="2054.7" width="189.73" height="78.416" ry="30" fill={'#'+warna6hex(ranks6[2])} />
-            <rect id="18" x="1870.1" y="58.552" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[23+1])} />
-            <rect id="1" x="420.46" y="58.552" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[13+1])} />
+            <rect id="18" x="1870.1" y="58.552" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[35-1])} />
+            <rect id="1" x="420.46" y="58.552" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[13-1])} />
             <path id="18.10"
                 d="m1820.7 58.552h29.128v251.99h-29.128a29.128 29.128 45 0 1-29.128-29.128v-193.74a29.128 29.128 135 0 1 29.128-29.128z"
                 fill={'#'+warna18hex(ranks18[9])} />
@@ -146,50 +146,50 @@ export default function Result40() {
             <path id="18.16"
                 d="m1820.7 1534h29.128v165.2h-29.128a29.128 29.128 45 0 1-29.128-29.128v-106.95a29.128 29.128 135 0 1 29.128-29.128z"
                 fill={'#'+warna18hex(ranks18[15])} />
-            <rect id="25" x="1870.1" y="752.86" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[4+1])} />
+            <rect id="25" x="1870.1" y="752.86" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[36-1])} />
             <path id="path89" d="m610.19 752.86h-189.73v78.416h189.73zm-4.224 4.224v69.968h-181.28v-69.968z" fill="#838fc4" />
-            <rect id="33" x="1870.1" y="1534" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[26+1])} />
+            <rect id="33" x="1870.1" y="1534" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[29-1])} />
             <path id="path93" d="m610.19 1534h-189.73v78.416h189.73zm-4.224 4.224v69.968h-181.28v-69.968z" fill="#838fc4" />
-            <rect id="19" x="1870.1" y="145.34" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[37+1])} />
-            <rect id="2" x="420.46" y="145.34" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[18+1])} />
-            <rect id="26" x="1870.1" y="839.65" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[8+1])} />
+            <rect id="19" x="1870.1" y="145.34" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[9-1])} />
+            <rect id="2" x="420.46" y="145.34" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[16-1])} />
+            <rect id="26" x="1870.1" y="839.65" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[38-1])} />
             <path id="path101" d="m610.19 839.64h-189.73v78.416h189.73zm-4.224 4.224v69.968h-181.28v-69.968z" fill="#838fc4" />
-            <rect id="34" x="1870.1" y="1620.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[17+1])} />
+            <rect id="34" x="1870.1" y="1620.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[17-1])} />
             <path id="path105" d="m610.19 1620.7h-189.73v78.416h189.73zm-4.224 4.224v69.968h-181.28v-69.968z" fill="#838fc4" />
-            <rect id="20" x="1870.1" y="232.13" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[32+1])}/>
-            <rect id="3" x="420.46" y="232.13" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[16+1])} />
-            <rect id="27" x="1870.1" y="926.43" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[40+1])} />
-            <rect id="7" x="420.46" y="926.43" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[38+1])} />
-            <rect id="35" x="1870.1" y="1707.5" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[34+1])} />
-            <rect id="12" x="420.46" y="1707.5" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[24+1])} />
-            <rect id="21" x="1870.1" y="318.92" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[30+1])} />
-            <rect id="4" x="420.46" y="318.92" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[11+1])} />
-            <rect id="28" x="1870.1" y="1013.2" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[12+1])} />
-            <rect id="8" x="420.46" y="1013.2" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[15+1])} />
-            <rect id="36" x="1870.1" y="1794.3" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[25+1])} />
-            <rect id="13" x="420.46" y="1794.3" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[36+1])} />
-            <rect id="22" x="1870.1" y="405.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[9+1])} />
-            <rect id="5" x="420.46" y="405.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[10+1])} />
-            <rect id="29" x="1870.1" y="1100" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[31+1])} />
-            <rect id="9" x="420.46" y="1100" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[19+1])} />
-            <rect id="37" x="1870.1" y="1881.1" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[39+1])} />
-            <rect id="14" x="420.46" y="1881.1" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[14+1])} />
-            <rect id="23" x="1870.1" y="492.49" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[28+1])} />
-            <rect id="6" x="420.46" y="492.49" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[29+1])} />
-            <rect id="30" x="1870.1" y="1186.8" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[22+1])} />
-            <rect id="10" x="420.46" y="1186.8" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[6+1])} />
-            <rect id="38" x="1870.1" y="1967.9" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[7+1])} />
-            <rect id="15" x="420.46" y="1967.9" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[21+1])} />
-            <rect id="24" x="1870.1" y="579.28" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[35+1])} />
+            <rect id="20" x="1870.1" y="232.13" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[22-1])}/>
+            <rect id="3" x="420.46" y="232.13" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[18-1])} />
+            <rect id="27" x="1870.1" y="926.43" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[1-1])} />
+            <rect id="7" x="420.46" y="926.43" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[8-1])} />
+            <rect id="35" x="1870.1" y="1707.5" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[20-1])} />
+            <rect id="12" x="420.46" y="1707.5" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[34-1])} />
+            <rect id="21" x="1870.1" y="318.92" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[24-1])} />
+            <rect id="4" x="420.46" y="318.92" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[40-1])} />
+            <rect id="28" x="1870.1" y="1013.2" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[39-1])} />
+            <rect id="8" x="420.46" y="1013.2" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[26-1])} />
+            <rect id="36" x="1870.1" y="1794.3" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[31-1])} />
+            <rect id="13" x="420.46" y="1794.3" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[15-1])} />
+            <rect id="22" x="1870.1" y="405.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[7-1])} />
+            <rect id="5" x="420.46" y="405.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[4-1])} />
+            <rect id="29" x="1870.1" y="1100" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[23-1])} />
+            <rect id="9" x="420.46" y="1100" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[14-1])} />
+            <rect id="37" x="1870.1" y="1881.1" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[2-1])} />
+            <rect id="14" x="420.46" y="1881.1" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[33-1])} />
+            <rect id="23" x="1870.1" y="492.49" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[27-1])} />
+            <rect id="6" x="420.46" y="492.49" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[25-1])} />
+            <rect id="30" x="1870.1" y="1186.8" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[5-1])} />
+            <rect id="10" x="420.46" y="1186.8" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[6-1])} />
+            <rect id="38" x="1870.1" y="1967.9" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[3-1])} />
+            <rect id="15" x="420.46" y="1967.9" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[10-1])} />
+            <rect id="24" x="1870.1" y="579.28" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[19-1])} />
             <path id="path157" d="m610.19 579.28h-189.73v78.417h189.73zm-4.224 4.224v69.969h-181.28v-69.969z" fill="#838fc4" />
-            <rect id="31" x="1870.1" y="1273.6" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[2+1])} />
-            <rect id="11" x="420.46" y="1273.6" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[20+1])} />
-            <rect id="39" x="1870.1" y="2054.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[5+1])} />
-            <rect id="16" x="420.46" y="2054.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[27+1])} />
-            <rect id="32" x="1870.1" y="1360.4" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[33+1])} />
+            <rect id="31" x="1870.1" y="1273.6" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[30-1])} />
+            <rect id="11" x="420.46" y="1273.6" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[11-1])} />
+            <rect id="39" x="1870.1" y="2054.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[12-1])} />
+            <rect id="16" x="420.46" y="2054.7" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[28-1])} />
+            <rect id="32" x="1870.1" y="1360.4" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[21-1])} />
             <path id="path169" d="m610.19 1360.4h-189.73v78.417h189.73zm-4.224 4.225v69.968h-181.28v-69.968z" fill="#838fc4" />
-            <rect id="40" x="1870.1" y="2141.5" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[1+1])} />
-            <rect id="17" x="420.46" y="2141.5" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[3+1])} />
+            <rect id="40" x="1870.1" y="2141.5" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[32-1])} />
+            <rect id="17" x="420.46" y="2141.5" width="189.73" height="78.416" fill={'#'+warna40hex(ranks[37-1])} />
             <path id="path179" d="m1660.1 531.7c96.381 0 1.127-347.15 115.12-347.15" fill="none" stroke="#838fc4"
                 stroke-width="6.75px" />
             <path id="path181" d="m820.18 531.7c-96.381 0-1.127-390.55-115.12-390.55" fill="none" stroke="#838fc4"
