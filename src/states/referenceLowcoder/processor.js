@@ -4,6 +4,10 @@ const calcAvgChildren = (childrens,prevCalc) => childrens
   .reduce((a,b)=>a+b)
   /childrens.length
 
+
+
+const scores = [60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60]
+
 // calc 40
 var calcBakat40 = base.map(
   (
@@ -13,7 +17,7 @@ var calcBakat40 = base.map(
       ? bakat
       : {
           ...bakat,
-          score: stateAnswerAll.value[parseInt(bakat.id) - 1],
+          score: scores[parseInt(bakat.id) - 1],
         }
 );
 
