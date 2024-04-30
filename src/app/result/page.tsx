@@ -28,27 +28,27 @@ export default function ResultPage() {
   return (
     <div className="flex justify-center m-2">
       {/* tengah halaman */}
-      <div className="w-[19cm]">
+      <div className="w-[22cm]">
         <ResultAction />
         <div className="print:h-[27.5cm]">
           <Identity />
         </div>
-        <div className="print:h-[27.7cm]">
+        <div className="print:h-[27.7cm] print:break-after-page">
           <Result40 />
           <ColorMean />
         </div>
-        <div className="print:h-[27.7cm] print:flex-col print:space-y-10">
+        <div className="print:h-[27.7cm] print:flex-col print:space-y-10 print:break-after-page">
           <StrongAndWeak />
           <Chart />
         </div>
-        <div className="print:h-[110.8cm] flex-col space-y-10 border p-2">
+        <div className="print:h-[110.8cm] flex-col space-y-10 border p-2 print:break-after-page">
           <Kepribadian />
           <Bakat />
         </div>
-        <div className="print:h-[27.7cm] flex-col space-y-10 border p-2">
+        <div className="print:h-[27.7cm] flex-col space-y-10 border p-2 print:break-after-page">
           <GayaBelajar />
         </div>
-        <div className=" flex-col space-y-10 border p-2">
+        <div className=" flex-col space-y-10 border p-2 print:break-after-page">
           <BahasaHati />
           <SifatTercela />
         </div>

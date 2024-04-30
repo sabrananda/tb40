@@ -13,20 +13,25 @@ export function pilar18Handler(pilar18: PilarAverage[], pilarArray: Pilar[]) {
   // berfirasat & cerdik
   pilar18[4 - 1].average =
     (pilarArray[8 - 1].skor + pilarArray[26 - 1].skor) / 2;
-  // berprasangka baik & cerdas
-  pilar18[5 - 1].average =
-    (pilarArray[14 - 1].skor + pilarArray[6 - 1].skor) / 2;
-  // ahli hikmah
-  pilar18[6 - 1].average = pilarArray[11 - 1].skor;
-  // jujur & menjaga diri
-  pilar18[7 - 1].average =
-    (pilarArray[34 - 1].skor + pilarArray[15 - 1].skor) / 2;
-  // pendiam & pemalu
+
+  // INI
+  // berprasangka baik 
+  pilar18[5 - 1].average = pilarArray[14 - 1].skor;
+  // cerdas & ahli hikmah
+  pilar18[6 - 1].average = (pilarArray[6 - 1].skor + pilarArray[11 - 1].skor) / 2;
+
+  // INI
+  // jujur
+  pilar18[7 - 1].average =pilarArray[34 - 1].skor ;
+  // menjaga diri & pendiam
   pilar18[8 - 1].average =
-    (pilarArray[33 - 1].skor + pilarArray[10 - 1].skor) / 2;
-  // sederhana & rendah hati
+    (+ pilarArray[15 - 1].skor + pilarArray[33 - 1].skor ) / 2;
+  // pemalu, sederhana & rendah hati
   pilar18[9 - 1].average =
-    (pilarArray[28 - 1].skor + pilarArray[37 - 1].skor) / 2;
+    (pilarArray[10 - 1].skor + pilarArray[28 - 1].skor + pilarArray[37 - 1].skor) / 3;
+
+
+    
   // pemberani, pencemburu & kompetitif
   pilar18[10 - 1].average =
     (pilarArray[35 - 1].skor +

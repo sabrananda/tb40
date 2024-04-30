@@ -1,4 +1,5 @@
 import { create } from "zustand";
+
 import {
   BahasaHati,
   Bakat,
@@ -22,6 +23,10 @@ interface ResultState {
   warna18: (rank: number) => void;
   warna6: (rank: number) => void;
   warna3: (rank: number) => void;
+  warna40hex: (rank: number) => void;
+  warna18hex: (rank: number) => void;
+  warna6hex: (rank: number) => void;
+  warna3hex: (rank: number) => void;
   kepribadian: Kepribadian;
   setKepribadian: () => void;
   bakat: Bakat;
@@ -271,7 +276,64 @@ export const resultState = create<ResultState>((set, get) => ({
       return "";
     }
   },
+  warna40hex(rank) {
+    if (rank >= 1 && rank <= 6) {
+      return "EF4444";
+    } else if (rank >= 7 && rank <= 11) {
+      return "FBBF24";
+    } else if (rank >= 12 && rank <= 17) {
+      return "10B981";
+    } else if (rank >= 18 && rank <= 32) {
+      return "64748b";
+    } else if (rank >= 33 && rank <= 41) {
+      return "475569";
+    } else {
+      return "";
+    }
+  },
+  warna18hex(rank) {
+    if (rank >= 1 && rank <= 3) {
+      return "EF4444";
+    } else if (rank >= 4 && rank <= 6) {
+      return "FBBF24";
+    } else if (rank >= 7 && rank <= 12) {
+      return "10B981";
+    } else if (rank >= 13 && rank <= 15) {
+      return "64748b";
+    } else if (rank >= 16 && rank <= 18) {
+      return "475569";
+    } else {
+      return "";
+    }
+  },
+  warna6hex(rank) {
+    if (rank === 1) {
+      return "EF4444";
+    } else if (rank === 2) {
+      return "FBBF24";
+    } else if (rank >= 3 && rank <= 4) {
+      return "10B981";
+    } else if (rank === 5) {
+      return "64748b";
+    } else if (rank === 6) {
+      return "475569";
+    } else {
+      return "";
+    }
+  },
+  warna3hex(rank) {
+    if (rank === 1) {
+      return "EF4444";
+    } else if (rank === 2) {
+      return "10B981";
+    } else if (rank === 3) {
+      return "475569";
+    } else {
+      return "";
+    }
+  },
 }));
+
 function pribadi6(rank6: number[]) {
   switch (rank6[0]) {
     case 1:
@@ -332,3 +394,4 @@ function pribadi18(rank18: number[]) {
       "";
   }
 }
+
